@@ -3,7 +3,7 @@ import java.util.*;
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        char[] alphabet = {'[',']','{','}','(',')'};
+        char[] alphabet = {'[',']','{','}','(',')', '<', '>'};
         String userContinue = "Y";
 
         while (userContinue.equalsIgnoreCase("Y")) {
